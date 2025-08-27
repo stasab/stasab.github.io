@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <script>
-      // Redirect to index.html with original path preserved
-      const redirectTo = location.pathname.replace(/\/+$/, "");
-      window.location.replace("/?" + redirectTo);
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+      // This script takes the current URL and redirects to the correct SPA route
+      (function () {
+        var path = location.pathname.replace(/\/404.html$/, "");
+        var search = location.search || "";
+        var hash = location.hash || "";
+        var newUrl = path + "/" + hash.replace(/^#/, "");
+        location.replace(newUrl);
+      })();
     </script>
   </head>
-  <body>
-    <p>Redirecting…</p>
-  </body>
+  <body></body>
 </html>
