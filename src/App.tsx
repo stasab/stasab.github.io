@@ -1,33 +1,16 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import Portfolio from './pages/portfolio/Portfolio';
 import Contact from './pages/Contact';
 import PortfolioVLM from './pages/portfolio/PortfolioVLM';
-import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
-
-
-function RedirectFixer() {
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.pathname === "/404.html") {
-      const redirectTo = location.hash.slice(1) || "/";
-      window.history.replaceState({}, "", redirectTo);
-    }
-  }, [location]);
-
-  return null;
-}
 
 const App: React.FC = () => {
 
   return (
     <Router>
-      <RedirectFixer />
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
