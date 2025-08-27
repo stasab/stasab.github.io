@@ -8,7 +8,7 @@ const Portfolio: React.FC = () => {
       <p>The best projects I have worked on.</p>
       <ul>
         <li>
-          <Link to="/portfolio">Nutrient | Project: VLM Integration for OCR Improvements</Link>
+          <Link to="/portfolioVLM">Nutrient | Project: VLM Integration for OCR Improvements</Link>
         </li>
       </ul>
     </div>
