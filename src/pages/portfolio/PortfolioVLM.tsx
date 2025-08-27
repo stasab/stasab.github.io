@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Portfolio_VLM: React.FC = () => {
+const PortfolioVLM: React.FC = () => {
   return (
     <div className="container">
       <img src="/assets/N_cover_VLM.jpg" />
@@ -46,4 +46,4 @@ To push these capabilities further, we explored the use of Vision-Language Model
   );
 };
 
-export default Portfolio_VLM;
+export default PortfolioVLM;
