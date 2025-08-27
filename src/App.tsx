@@ -14,9 +14,9 @@ function RedirectFixer() {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.search && location.pathname === "/") {
-      const realPath = location.search.slice(1);
-      window.history.replaceState(null, "", realPath);
+    if (location.pathname === "/404.html") {
+      const redirectTo = location.hash.slice(1) || "/";
+      window.history.replaceState({}, "", redirectTo);
     }
   }, [location]);
 
