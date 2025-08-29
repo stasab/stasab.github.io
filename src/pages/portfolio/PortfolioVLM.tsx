@@ -6,7 +6,7 @@ const PortfolioVLM: React.FC = () => {
       <img src="/assets/W_N_cover_VLM.jpg" alt="AI Project Cover" />
 
       <div className="inner-container">
-        <h3>Nutrient | Project: VLM Integration for OCR Improvements</h3>
+        <h3>Nutrient | VLM Integration for OCR Improvements</h3>
         <p>Nutrient is a leading provider of document processing SDKs and APIs, enabling developers and enterprises to manage complex document workflows with performance, scalability, and compliance with global standards such as PDF/UA and WCAG.
           <br />
           To push these capabilities further, we explored the use of Vision-Language Models (VLMs) to enhance OCR accuracy and layout understanding in complex, noisy, or low-quality documents. This project aimed to simplify the path to high-quality documents by combining cutting-edge AI with Nutrient’s proven expertise in document processing.</p>

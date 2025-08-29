@@ -6,7 +6,7 @@ const PortfolioAIAssistant: React.FC = () => {
       <img src="/assets/W_N_cover_AI.jpg" alt="AI Project Cover" />
 
       <div className="inner-container">
-        <h3>Nutrient | Project: AI Assistant</h3>
+        <h3>Nutrient | AI Assistant</h3>
         <p>Nutrient is a leading provider of document processing SDKs and APIs, enabling developers and enterprises to manage complex document workflows with performance, scalability, and compliance with global standards such as PDF/UA and WCAG.
            <br></br>
            Building on this foundation, the AI Assistant project introduced natural language interaction with documents, allowing users to chat, search, compare, and edit large or multiple files. This initiative positioned Nutrient at the forefront of a new standard in usability, making document handling more intuitive and accessible for all users</p>

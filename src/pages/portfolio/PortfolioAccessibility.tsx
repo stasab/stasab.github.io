@@ -6,7 +6,7 @@ const PortfolioAccessibility: React.FC = () => {
       <img src="/assets/W_N_cover_PDFUA.jpg" alt="AI Project Cover" />
 
       <div className="inner-container">
-        <h3>Nutrient | Project: Accessibility & PDF/UA Compliance</h3>
+        <h3>Nutrient | Accessibility & PDF/UA Compliance</h3>
         <p>Nutrient is a leading provider of document processing SDKs and APIs, enabling developers and enterprises to manage complex document workflows with performance, scalability, and compliance with global standards such as PDF/UA and WCAG.
           <br />
           Building on this foundation, we invested in accessibility features to help customers meet compliance requirements while ensuring documents are usable by all people, including those relying on assistive technologies. This initiative positioned Nutrient as a partner in not only performance and accuracy, but also inclusivity and compliance.

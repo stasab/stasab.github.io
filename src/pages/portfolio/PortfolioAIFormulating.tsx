@@ -6,7 +6,7 @@ const PortfolioAIFormulating: React.FC = () => {
       <img src="/assets/W_A_cover_ai.jpg" alt="AI Project Cover" />
 
       <div className="inner-container">
-        <h3>Alchemy Cloud | Project: AI-Powered Formulation</h3>
+        <h3>Alchemy Cloud | AI-Powered Formulation</h3>
         <p>Alchemy Cloud is a B2B SaaS for workflow digitalization, helping companies in the speciality chemicals industry move from analog, lab-based processes to fully digital workflows. Covering the entire vertical, it supports every role and task across the industry, with the goal of accelerating innovation by capturing structured, AI-ready data throughout the product development lifecycle.</p>
 
         <h4>Problem</h4>
