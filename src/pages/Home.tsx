@@ -1,5 +1,4 @@
 import React from 'react';
-import profileImage from "../assets/profile.jpg";
 
 const Home: React.FC = () => {
   return (
@@ -13,13 +12,16 @@ const Home: React.FC = () => {
             <p className="progression">
               <strong>Designer ➝ Software Developer ➝ Product Manager</strong>
             </p>
+
             <p className="summary">
-              I bring a rare mix of design, engineering, and product thinking. I’m always team-first,
-              empathy-led, and focused on impact and getting things done.
+              Hi! My name is Staša (that wierd letter “š” is pronounced like "sh").
+              I’m a product professional based in New Zealand. I am a blend of product thinking, design, and engineering, which might just be my superpower.
+              But more than anything, I love understanding people. Whether it’s customers and users and their needs, or in-house teams and their unique perspectives, I enjoy learning how to “speak their language” and bridge gaps to make things happen.
             </p>
+
           </div>
           <div className="header-image">
-            <img src={profileImage} alt="Stasa Bugarski" />
+            <img src="/assets/profile.jpg" alt="Stasa Bugarski" />
           </div>
         </header>
       

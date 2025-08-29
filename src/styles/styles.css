@@ -4,7 +4,7 @@ body {
   padding: 0;
   color: #0B292F;
 
-  background: #fff url("/src/assets/background.png") no-repeat top right;
+  background: #fff url("/public/assets/background.png") no-repeat top right;
   background-size: auto 100vh;
   background-attachment: fixed;
 }
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size:2rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -74,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-  text-shadow: 0 4px 15px rgba(75,211,177,0.9);
+  text-shadow: 0 4px 15px rgba(75, 211, 177, 0.9);
   transform: translateY(-2px);
 }
 
@@ -149,7 +149,7 @@ footer {
   color: #4fd1c5;
   letter-spacing: 2px;
   margin-top: 0.5rem;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
   text-transform: uppercase;
   text-align: left;
 }
@@ -200,7 +200,7 @@ footer {
 
   li a {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: flex-start;
     width: 100%;
     padding: 1rem;
@@ -209,9 +209,46 @@ footer {
     border: #4BD3B1 solid 1px;
 
     &:hover {
-      background-color: rgba(255,255,255,0.05);
+      background-color: rgba(255, 255, 255, 0.05);
       text-decoration: underline;
-      transition: background-color 0.3s ease, text-decoration-color 0.3s ease;    }
+      transition: background-color 0.3s ease, text-decoration-color 0.3s ease;
+    }
+  }
+}
+
+
+
+/************** Contanct *************/
+.contact {
+  .cv-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .cv-button {
+    background-color: #4BD3B1;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .cv-button:hover {
+    background-color: #3bb39a;
+    /* malo tamnija mint za hover */
+    transform: translateY(-2px);
+  }
+
+  .cv-button:active {
+    transform: translateY(0);
+    box-shadow: none;
   }
 }
 
@@ -223,9 +260,11 @@ footer {
   .container {
     max-width: 100%;
   }
+
   header {
     padding: 1rem 0;
   }
+
   nav li {
     display: block;
     margin: 10px 0;

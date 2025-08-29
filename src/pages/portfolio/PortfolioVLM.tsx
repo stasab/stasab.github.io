@@ -1,10 +1,9 @@
 import React from 'react';
-import img from '../../assets/W_N_cover_VLM.jpg';
 
 const PortfolioVLM: React.FC = () => {
   return (
     <div className="container">
-      <img src={img} alt="AI Project Cover" />
+      <img src="/assets/W_N_cover_VLM.jpg" alt="AI Project Cover" />
 
       <div className="inner-container">
         <h3>Nutrient | Project: VLM Integration for OCR Improvements</h3>
@@ -20,30 +19,26 @@ const PortfolioVLM: React.FC = () => {
 
 
         <h4>Actions & Solution</h4>
-        <p>
-          <ul>
-            <li>Ran proof-of-concept experiments with SmolDocling and other emerging VLMs.</li>
-            <li>Introduced multi-zonal document analysis via VLMs to segment and understand documents before OCR.</li>
-            <li>Applied VLMs to classify documents upfront, enabling dynamic adjustment of OCR parameters for better results.</li>
-            <li>Leveraged VLMs to separate noise from content, preventing common misinterpretations in noisy documents.</li>
-            <li>Designed benchmark tests across degraded scans, tables, and mixed layouts, building dashboards to quantify performance gains.</li>
-          </ul>
-        </p>
+        <ul>
+          <li>Ran proof-of-concept experiments with SmolDocling and other emerging VLMs.</li>
+          <li>Introduced multi-zonal document analysis via VLMs to segment and understand documents before OCR.</li>
+          <li>Applied VLMs to classify documents upfront, enabling dynamic adjustment of OCR parameters for better results.</li>
+          <li>Leveraged VLMs to separate noise from content, preventing common misinterpretations in noisy documents.</li>
+          <li>Designed benchmark tests across degraded scans, tables, and mixed layouts, building dashboards to quantify performance gains.</li>
+        </ul>
 
         <h4>Impact</h4>
-        <p>
-          <ul>
-            <li>Achieved ~30% improvement in OCR accuracy compared to baseline.</li>
-            <li>Significantly reduced error rates on noisy, low-quality documents, cutting down on manual review and corrections.</li>
-            <li>Reduced manual correction effort and unlocked higher reliability for downstream AI-powered workflows.</li>
-            <li>Positioned Nutrient uniquely: unlike competitors who embed VLMs directly as OCR, we use VLMs before OCR as a pre-processing step. This approach leverages our already strong OCR algorithms while making them significantly more effective.</li>
-          </ul>
-        </p>
+        <ul>
+          <li>Achieved ~30% improvement in OCR accuracy compared to baseline.</li>
+          <li>Significantly reduced error rates on noisy, low-quality documents, cutting down on manual review and corrections.</li>
+          <li>Reduced manual correction effort and unlocked higher reliability for downstream AI-powered workflows.</li>
+          <li>Positioned Nutrient uniquely: unlike competitors who embed VLMs directly as OCR, we use VLMs before OCR as a pre-processing step. This approach leverages our already strong OCR algorithms while making them significantly more effective.</li>
+        </ul>
 
         <h4>Next Step</h4>
         <p>We are exploring the creation of a proprietary model optimized for document understanding, trained on large and diverse datasets available through Nutrient. Unlike generic VLMs, this model would be specialized for document layouts, structures, and edge cases common in enterprise workflows. The goal is to deliver a secure, high-accuracy solution that sets a new industry standard, giving Nutrient a proprietary advantage and our customers a smarter, more reliable way to process documents.</p>
       </div>
-     
+
     </div>
   );
 };
