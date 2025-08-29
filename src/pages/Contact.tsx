@@ -20,10 +20,10 @@ const Contact: React.FC = () => {
 
 
         <div className="cv-buttons">
-          <a href="/assets/Stasa_Bugarski__CV.pdf" download>
+          <a href={`${process.env.PUBLIC_URL}/assets/Stasa_Bugarski_CV.pdf`} download>
             <button className="cv-button">Download CV</button>
           </a>
-          <a href="/assets/Stasa_Bugarski_Portfolio.pdf" download>
+          <a href={`${process.env.PUBLIC_URL}/assets/Stasa_Bugarski_Portfolio.pdf`} download>
             <button className="cv-button">Download Portfolio</button>
           </a>
         </div>
