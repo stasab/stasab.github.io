@@ -10,6 +10,7 @@ import PortfolioAIAssistant from './pages/portfolio/PortfolioAIAssistant';
 import PortfolioAccessibility from './pages/portfolio/PortfolioAccessibility';
 import PortfolioStrategicShift from './pages/portfolio/PortfolioStrategicShift';
 import PortfolioAIFormulating from './pages/portfolio/PortfolioAIFormulating';
+import PortfolioJobMe from './pages/portfolio/PortfolioJobMe';
 
 const App: React.FC = () => {
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolioJobMe" element={<PortfolioJobMe />} />
         <Route path="/portfolioAIAssistant" element={<PortfolioAIAssistant />} />
         <Route path="/portfolioVLM" element={<PortfolioVLM />} />
         <Route path="/portfolPortfolioAccessibilityioVLM" element={<PortfolioAccessibility />} />

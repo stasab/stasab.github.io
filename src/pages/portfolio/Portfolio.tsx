@@ -14,6 +14,7 @@ const Portfolio: React.FC = () => {
           Each project is linked below with a short case study.
         </p>
         <div className="projects">
+          <Link className="project glass-box" to="/portfolioJobMe">My Pet Project | Job Me</Link>
           <Link className="project glass-box" to="/portfolioAIAssistant">Nutrient | AI Assistant</Link>
           <Link className="project glass-box" to="/portfolioStrategicShift">Alchemy Cloud | Strategic Shift in Product Architecture</Link>
           <Link className="project glass-box" to="/portfolioVLM">Nutrient | VLM Integration for OCR Improvements</Link>
